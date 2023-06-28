@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quinto exemplo pratico!</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            color: white;
+
+        }
+        .container{
+            padding: 100px;
+            background-image: url("./img_exemplo_5/imagem-de-fundo.png");
+            background-position: center;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center; 
+        }
+        .container h2 {
+            margin-bottom: 30px;
+        }
+        
+        .lista-horarios {
+            width: 100%;
+            max-width: 768px;
+        }
+
+        .lista-horarios li {
+            list-style: none;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+        }
+        h3{
+           flex: 0 1 80px;
+        }
+
+        .lista-horarios div{
+            height: 1px;
+            background-color: gray;
+            flex: 1 1 auto;
+        }
+        .lista-horarios li p,span{
+            text-align: right;
+            flex: 0 1 100px;
+        }
+        .lista-horarios li span {
+            color: #c4a47c;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>HORÁRIOS DE FUNCIONAMENTO</h2>
+        <ul class="lista-horarios">
+          <li>
+            <h3>SEGUNDA</h3>
+            <div></div>
+            <span>FECHADO</span>
+          </li>
+          <li>
+            <h3>TERÇA</h3>
+            <div></div>
+            <p>09:00 - 22:00</p>
+          </li>
+          <li>
+            <h3>QUARTA</h3>
+            <div></div>
+            <p>09:00 - 22:00</p>
+          </li>
+          <li>
+            <h3>QUINTA</h3>
+            <div></div>
+            <p>09:00 - 22:00</p>
+          </li>
+          <li>
+            <h3>SEXTA</h3>
+            <div></div>
+            <p>09:00 - 22:00</p>
+          </li>
+          <li>
+            <h3>SÁBADO</h3>
+            <div></div>
+            <p>12:00 - 22:00</p>
+          </li>
+          <li>
+            <h3>DOMINGO</h3>
+            <div></div>
+            <p>12:00 - 22:00</p>
+          </li>
+        </ul>
+      </div>
+    
+</body>
+</html>
